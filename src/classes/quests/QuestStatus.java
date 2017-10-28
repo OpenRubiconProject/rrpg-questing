@@ -1,4 +1,4 @@
-package Classes.Quests;
+package classes.quests;
 
 /**
  * Created by Quinn on 10/22/2017.

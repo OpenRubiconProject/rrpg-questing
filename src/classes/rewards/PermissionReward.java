@@ -1,4 +1,4 @@
-package Classes.Rewards;
+package classes.rewards;
 
 import com.openrubicon.core.RRPGCore;
 import org.bukkit.OfflinePlayer;

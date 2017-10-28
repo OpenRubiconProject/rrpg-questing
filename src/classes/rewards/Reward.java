@@ -1,4 +1,4 @@
-package Classes.Rewards;
+package classes.rewards;
 
 import org.bukkit.OfflinePlayer;
 

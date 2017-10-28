@@ -1,6 +1,6 @@
-package Classes.Checkpoints;
+package classes.checkpoints;
 
-import Classes.Rewards.Reward;
+import classes.rewards.Reward;
 import org.bukkit.OfflinePlayer;
 
 /**
