@@ -1,9 +1,7 @@
-package Classes.Checkpoints;
+package classes.checkpoints;
 
 import org.bukkit.OfflinePlayer;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
-import org.bukkit.entity.Monster;
 
 /**
  * Created by Quinn on 10/22/2017.

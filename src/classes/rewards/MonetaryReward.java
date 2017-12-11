@@ -1,6 +1,5 @@
-package Classes.Rewards;
+package classes.rewards;
 
-import com.openrubicon.core.RRPGCore;
 import net.milkbowl.vault.Vault;
 import net.milkbowl.vault.VaultEco;
 import org.bukkit.OfflinePlayer;
