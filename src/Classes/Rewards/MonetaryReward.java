@@ -15,6 +15,6 @@ public class MonetaryReward extends Reward {
     }
 
     @Override
-    public void getReward(OfflinePlayer p) {
+    public void giveReward(OfflinePlayer p) {
     }
 }

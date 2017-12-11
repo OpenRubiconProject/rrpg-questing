@@ -31,7 +31,7 @@ public class ItemReward extends Reward {
     }
 
     @Override
-    public void getReward(OfflinePlayer p) {
+    public void giveReward(OfflinePlayer p) {
         ItemStack stack = new ItemStack(itemType);
         stack.setAmount(this.getQuantity());
 

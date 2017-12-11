@@ -16,6 +16,6 @@ public abstract class Checkpoint {
      * @return If the player has achieved the checkpoint or not.
      */
     public abstract boolean isAchieved(OfflinePlayer p);
-    public void getReward(OfflinePlayer p){reward.getReward(p);}
+    public void getReward(OfflinePlayer p){reward.giveReward(p);}
 
 }

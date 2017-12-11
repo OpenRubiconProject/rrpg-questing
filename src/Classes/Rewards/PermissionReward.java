@@ -16,7 +16,7 @@ public class PermissionReward extends Reward {
     }
 
     @Override
-    public void getReward(OfflinePlayer p) {
+    public void giveReward(OfflinePlayer p) {
         PermissionAttachment perms = p.getPlayer().addAttachment(RRPGCore.plugin);
         perms.setPermission(permission, true);
     }
