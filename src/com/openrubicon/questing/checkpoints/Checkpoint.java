@@ -1,6 +1,6 @@
-package classes.checkpoints;
+package com.openrubicon.questing.checkpoints;
 
-import classes.rewards.Reward;
+import com.openrubicon.questing.rewards.Reward;
 import org.bukkit.OfflinePlayer;
 
 /**

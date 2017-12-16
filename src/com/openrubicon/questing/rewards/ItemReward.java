@@ -1,4 +1,4 @@
-package classes.rewards;
+package com.openrubicon.questing.rewards;
 
 import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 /**
  * Created by Quinn on 10/22/2017.
  */
-public class ItemReward extends Reward {
+public class ItemReward extends QuantityReward {
 
     private Material itemType;
     private Enchantment[] enchants;

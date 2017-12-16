@@ -1,4 +1,4 @@
-package events;
+package com.openrubicon.questing.events;
 
 import com.openrubicon.core.api.events.Event;
 

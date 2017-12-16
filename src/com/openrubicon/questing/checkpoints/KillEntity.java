@@ -1,4 +1,4 @@
-package classes.checkpoints;
+package com.openrubicon.questing.checkpoints;
 
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.EntityType;

@@ -1,4 +1,4 @@
-package Classes.Rewards;
+package com.openrubicon.questing.rewards;
 
 /**
  * Created by Quinn on 10/26/2017.

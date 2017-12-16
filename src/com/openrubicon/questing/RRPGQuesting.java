@@ -1,9 +1,12 @@
-import classes.QuestManager;
-import classes.Questing;
+package com.openrubicon.questing;
+
+import com.openrubicon.core.RRPGCore;
 import com.openrubicon.core.api.command.Command;
 import com.openrubicon.core.api.database.interfaces.DatabaseModel;
 import com.openrubicon.core.api.database.interfaces.PostDatabaseLoad;
 import com.openrubicon.core.interfaces.Module;
+import com.openrubicon.questing.classes.QuestManager;
+import com.openrubicon.questing.classes.Questing;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -44,5 +47,11 @@ public class RRPGQuesting extends JavaPlugin implements Module {
     @Override
     public String getConfiguration() {
         return null;
+    }
+
+    @Override
+    public void onLoad()
+    {
+        RRPGCore.modules.addModule(this);
     }
 }
