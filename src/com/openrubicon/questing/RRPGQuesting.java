@@ -21,32 +21,32 @@ public class RRPGQuesting extends JavaPlugin implements Module {
 
     @Override
     public ArrayList<DatabaseModel> getDatabaseModels() {
-        return null;
+        return new ArrayList<DatabaseModel>();
     }
 
     @Override
     public ArrayList<Command> getCommands() {
-        return null;
+        return new ArrayList<Command>();
     }
 
     @Override
     public ArrayList<PostDatabaseLoad> getPostDatabaseLoads() {
-        return null;
+        return new ArrayList<PostDatabaseLoad>();
     }
 
     @Override
     public String getKey() {
-        return null;
+        return "rrpg-questing";
     }
 
     @Override
     public String getOverview() {
-        return null;
+        return "Create, manage, and log quests and quest progress";
     }
 
     @Override
     public String getConfiguration() {
-        return null;
+        return this.getDataFolder().getAbsolutePath();
     }
 
     @Override
